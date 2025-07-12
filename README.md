@@ -1,19 +1,18 @@
-# El País Cross-Browser Scraper
+# El País BrowserStack Web Scraper
 
-This Java Selenium automation script scrapes the "Opinión" section of El País across multiple browsers using BrowserStack.
+This Java Maven project scrapes the latest opinion articles from [El País](https://elpais.com), extracts titles and content, translates titles to English using Google Translate API, and downloads cover images.
 
-## Features
-- Accepts cookie popup
-- Navigates to Opinion section
-- Scrapes top 5 articles: title, content, image, translated title
-- Translates titles using RapidAPI
-- Downloads cover images
-- Runs on Chrome, Firefox, Edge, and Android via BrowserStack
+## ✅ Features
 
-## How to Run
-1. Clone the repo
-2. Add your BrowserStack credentials in `BrowserStackTest.java`
-3. Run `BrowserStackTest.java`
+- Scrapes 5 opinion articles
+- Extracts title, subtitle, and article URL
+- Translates Spanish titles to English
+- Downloads article cover images
+- Analyzes word frequency
+- ✅ Tested across 5 browsers/devices using BrowserStack (parallel)
 
-## Author
-Prashanth S. R.
+## 🚀 How to Run
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/Prashanth96SR/el-pais-browserstack-scraper.git
